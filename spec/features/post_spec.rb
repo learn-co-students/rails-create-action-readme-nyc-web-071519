@@ -23,7 +23,7 @@ end
 
 describe 'form' do
   it 'shows a new form that submits content and redirects and prints out params' do
-    visit new_post_path
+    visit posts_new_path
 
     fill_in 'title', with: "My post title"
     fill_in 'description', with: "My post description"
